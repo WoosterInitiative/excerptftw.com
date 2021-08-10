@@ -4,7 +4,7 @@
 # Default build settings
 [build]
   publish = "public"
-  command = "CI= npm install postcss-cli" # && hugo --gc --minify"
+  command = "CI= npm install postcss-cli && hugo --gc --minify"
 
 # "production" environment specific build settings
 [build.environment]
