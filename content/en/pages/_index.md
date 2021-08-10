@@ -1,10 +1,12 @@
 ---
-title: "Documentation"
-linkTitle: "Documentation"
-# weight: 20
-# menu:
-#   main:
-#     weight: 20
+title: "Topic Pages"
+linkTitle: "Topics"
+menu:
+  main:
+    weight: 30
+
+cascade:
+- type: "docs"
 ---
 
 {{% pageinfo %}}

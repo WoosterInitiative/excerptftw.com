@@ -1,10 +1,7 @@
 ---
-title: "Documentation"
-linkTitle: "Documentation"
-# weight: 20
-# menu:
-#   main:
-#     weight: 20
+title: "COVID-19"
+linkTitle: "COVID-19"
+weight: 1
 ---
 
 {{% pageinfo %}}
