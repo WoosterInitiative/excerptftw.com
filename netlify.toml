@@ -13,5 +13,5 @@
   TZ = "America/Los_Angeles"
   # HUGO_THEME = "repo"
 
-# [context.branch-deploy]
-#   command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify -D -F"
+[context.branch-deploy]
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify -D -F -b $DEPLOY_PRIME_URL"
