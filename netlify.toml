@@ -3,10 +3,11 @@
 
 # Default build settings
 [build]
-  publish = "public"
-  command = "CI= npm install postcss-cli && hugo --gc --minify"
+  publish = "userguide/public"
+  command = "git submodule update -f --init && cd userguide && npm install postcss-cli && hugo --themesDir ../.."
 
 # "production" environment specific build settings
 [build.environment]
   HUGO_VERSION = "0.83.0"
   HUGO_ENV = "production"
+  HUGO_THEME = "repo"
