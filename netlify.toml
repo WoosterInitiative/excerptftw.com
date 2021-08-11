@@ -4,10 +4,14 @@
 # Default build settings
 [build]
   publish = "public"
-  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo"
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify"
 
 # "production" environment specific build settings
 [build.environment]
   HUGO_VERSION = "0.83.0"
   HUGO_ENV = "production"
+  TZ = "America/Los_Angeles"
   # HUGO_THEME = "repo"
+
+[context.branch-deploy]
+  command = "cd themes/docsy && git submodule update -f --init && cd ../.. && hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
