@@ -1,7 +1,7 @@
 ---
 title: "COVID-19"
 linkTitle: "COVID-19"
-weight: 1
+# weight: 1
 ---
 
 {{% pageinfo %}}
