@@ -10,4 +10,4 @@
 [build.environment]
   HUGO_VERSION = "0.83.0"
   HUGO_ENV = "production"
-  HUGO_THEME = "repo"
+  # HUGO_THEME = "repo"
