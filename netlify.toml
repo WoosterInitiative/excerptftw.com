@@ -4,7 +4,7 @@
 # Default build settings
 [build]
   publish = "public"
-  command = "hugo -gc --minify"
+  command = "hugo --minify"
 
 # "production" environment specific build settings
 [build.environment]
