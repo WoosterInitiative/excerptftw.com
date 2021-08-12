@@ -1,0 +1,19 @@
+{
+	"Shortcode": {
+		"prefix": "shortcode",
+		"body": ["{{< ${1} >}}"]
+	},
+	"Abbreviation": {
+		"prefix": "abbr",
+		"body": ["{{< abbr \"${1:title}\" ${2:text} >}}"],
+		"description": "Creates an abbreviation"
+	},
+	"Blockquote": {
+		"prefix": "blockquote",
+		"body": ["{{< blockquote title=\"${1}\" author=\"${2}\" link=\"${3}\" >}}",
+			"",
+			"${0}",
+			"",
+			"{{< /blockquote >}}"]
+	}
+}

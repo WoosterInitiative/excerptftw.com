@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+    <abbr title="{{ .Get "title" }}">{{ .Get "text" }}</abbr>
+{{ else }}
+    <abbr title="{{ .Get 0 }}">{{ .Get 1 }}</abbr>
+{{ end }}
