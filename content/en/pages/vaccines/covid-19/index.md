@@ -1,14 +1,14 @@
 ---
-title: "COVID 19 Vaccine Information"
-linkTitle: "COVID 19"
-date: 2021-08-10T14:09:55-07:00
-draft: false
-description: "Excerpts from and links to highly credible information about the COVID-19 Vaccines"
----
+title: COVID 19 Vaccine Information
+linkTitle: COVID 19
+date: 2021-08-10T14:09:55.000-07:00
+description: Excerpts from and links to highly credible information about the COVID-19
+  Vaccines
 
+---
 Please use the content on this page as a quick resource for sharing on social media. All sources have been vetted for reliability and credibility.
 
-If you ever find that not to be true, or if you would like to have a source or excerpt added, please use the *Submit Feedback* link on the right.
+If you ever find that not to be true, or if you would like to have a source or excerpt added, please use the _Submit Feedback_ link on the right.
 
 ## Are the COVID-19 Vaccines Safe?
 
@@ -53,3 +53,5 @@ Part of the {{< abbr title="National Institutes of Health" text="NIH" >}}
 A law that authorizes mandatory vaccination during an epidemic of a lethal disease, with refusal punishable by a monetary penalty, like the one at issue in Jacobson, would undoubtedly be found constitutional under the low constitutional test of “rationality review.” However, the vaccine would have to be approved by the FDA as safe and effective, and the law would have to require exceptions for those who have contraindications to the vaccine. A law that authorizes mandatory vaccination to prevent dangerous contagious diseases in the absence of an epidemic, such as the school immunization requirement summarily upheld in 1922, also would probably be upheld as long as (1) the disease still exists in the population where it can spread and cause serious injury to those infected, and (2) a safe and effective vaccine could prevent transmission to others.
 
 {{< /blockquote >}}
+
+## Fertility
